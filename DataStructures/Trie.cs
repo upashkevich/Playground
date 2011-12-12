@@ -5,7 +5,8 @@
     {
         public class TrieNode
         {
-            // base char represents the smallest char used in this node. It helps to optimize memory usage, while still having O(1) random element access.
+            // base char represents the smallest char used in this node
+            // it helps to optimize memory usage, while still having O(1) random element access
             private char baseChar;
 
             private TrieNode[] nodes;
